@@ -1,0 +1,371 @@
+packages:
+  _fe_analyzer_shared:
+    dependency: transitive
+    description:
+      name: _fe_analyzer_shared
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 47.0.0
+    sha256: 0vzd2dyhijfhnvxh05b629wm1brvnlh7mh56smz09hz7sa8hx139
+  analyzer:
+    dependency: transitive
+    description:
+      name: analyzer
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 4.7.0
+    sha256: 1kf1g8vdwnxya2ij7lpnh7iw91rgvpz7kr8pzs596xl02kah344q
+  args:
+    dependency: direct main
+    description:
+      name: args
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.3.1
+    sha256: 0c78zkzg2d2kzw1qrpiyrj1qvm4pr0yhnzapbqk347m780ha408g
+  async:
+    dependency: transitive
+    description:
+      name: async
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.9.0
+    sha256: 04pic2ss16ni8b1bnk7450hrq1391zbl93dlhd2a4na3cgwd65b3
+  boolean_selector:
+    dependency: transitive
+    description:
+      name: boolean_selector
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.0
+    sha256: 1rk7z1pa4yrnbdw5djqykx4w9lzpfdkb40z8zvnqzmr9mbkd60jx
+  collection:
+    dependency: transitive
+    description:
+      name: collection
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.16.0
+    sha256: 0nx7mbxwxw5z4mdjr9z8hg6g8kgy3cv5pv5ax0j1i9kl36brk5rg
+  convert:
+    dependency: transitive
+    description:
+      name: convert
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 3.0.2
+    sha256: 1fx2c8b5ryvhp0qzykr7dm9zhfc05iq6cww3xqnsif37xq4v00rs
+  coverage:
+    dependency: transitive
+    description:
+      name: coverage
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.6.1
+    sha256: 0akbg1yp2h4vprc8r9xvrpgvp5d26h7m80h5sbzgr5dlis1bcw0d
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 3.0.2
+    sha256: 1kjfb8fvdxazmv9ps2iqdhb8kcr31115h0nwn6v4xmr71k8jb8ds
+  file:
+    dependency: transitive
+    description:
+      name: file
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 6.1.4
+    sha256: 0ajcfblf8d4dicp1sgzkbrhd0b0v0d8wl70jsnf5drjck3p3ppk7
+  frontend_server_client:
+    dependency: transitive
+    description:
+      name: frontend_server_client
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.3
+    sha256: 0c5mbd4mhiq0vpqmp9pxmz3y6301aahy04h6ll6lz40wy34g2klq
+  glob:
+    dependency: transitive
+    description:
+      name: glob
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.0
+    sha256: 0a6gbwsbz6rkg35dkff0zv88rvcflqdmda90hdfpn7jp1z1w9rhs
+  http_multi_server:
+    dependency: transitive
+    description:
+      name: http_multi_server
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 3.2.1
+    sha256: 1zdcm04z85jahb2hs7qs85rh974kw49hffhy9cn1gfda3077dvql
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 4.0.1
+    sha256: 0lj0ygi2im4p966r3c8yd0i7j61xr8g6vmp6pdxzz6kpjqz5cifv
+  io:
+    dependency: transitive
+    description:
+      name: io
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.0.3
+    sha256: 1bp5l8hkrp6fjj7zw9af51hxyp52sjspc5558lq0lmi453l0czni
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 0.6.4
+    sha256: 01knzh9890ygxpy59rsh77h2ilh69wyl83idvrcvwzk8fknjldkb
+  lints:
+    dependency: direct dev
+    description:
+      name: lints
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.0.0
+    sha256: 0940mfnjbzjf8pm6jzwsrrh9z2x9lm7gpg805syyk62k80vgv1q2
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.1.0
+    sha256: 0f5gwba77hc1ksvfhlqwi9x62gxf57h80iny0jp7ab52npk8z6gw
+  matcher:
+    dependency: transitive
+    description:
+      name: matcher
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 0.12.12
+    sha256: 0ck3snlr8j689bxr0iv1kinva0craq0p6vwcv3cr31srfr2dkxb1
+  meta:
+    dependency: transitive
+    description:
+      name: meta
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.8.0
+    sha256: 01kqdd25nln5a219pr94s66p27m0kpqz0wpmwnm24kdy3ngif1v5
+  mime:
+    dependency: transitive
+    description:
+      name: mime
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.0.2
+    sha256: 1dr3qikzvp10q1saka7azki5gk2kkf2v7k9wfqjsyxmza2zlv896
+  node_preamble:
+    dependency: transitive
+    description:
+      name: node_preamble
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.0.1
+    sha256: 0i0gfc2yqa09182vc01lj47qpq98kfm9m8h4n8c5fby0mjd0lvyx
+  package_config:
+    dependency: transitive
+    description:
+      name: package_config
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.0
+    sha256: 1d4l0i4cby344zj45f5shrg2pkw1i1jn03kx0qqh0l7gh1ha7bpc
+  path:
+    dependency: transitive
+    description:
+      name: path
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.8.2
+    sha256: 16ggdh29ciy7h8sdshhwmxn6dd12sfbykf2j82c56iwhhlljq181
+  pool:
+    dependency: transitive
+    description:
+      name: pool
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.5.1
+    sha256: 0wmzs46hjszv3ayhr1p5l7xza7q9rkg2q9z4swmhdqmhlz3c50x4
+  pub_semver:
+    dependency: transitive
+    description:
+      name: pub_semver
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.1
+    sha256: 1im633xwddksica1wkfm8vx1v9gfyy1i84j9a0rbs9k0lsmcc7n5
+  shelf:
+    dependency: transitive
+    description:
+      name: shelf
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.4.0
+    sha256: 0x2xl7glrnq0hdxpy2i94a4wxbdrd6dm46hvhzgjn8alsm8z0wz1
+  shelf_packages_handler:
+    dependency: transitive
+    description:
+      name: shelf_packages_handler
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 3.0.1
+    sha256: 199rbdbifj46lg3iynznnsbs8zr4dfcw0s7wan8v73nvpqvli82q
+  shelf_static:
+    dependency: transitive
+    description:
+      name: shelf_static
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.1.1
+    sha256: 1kqbaslz7bna9lldda3ibrjg0gczbzlwgm9cic8shg0bnl0v3s34
+  shelf_web_socket:
+    dependency: transitive
+    description:
+      name: shelf_web_socket
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.0.2
+    sha256: 0z55cicghf8dfc9b788acyhfn8g0i1fq8v8qwpzwxy9fciypsl5f
+  source_map_stack_trace:
+    dependency: transitive
+    description:
+      name: source_map_stack_trace
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.0
+    sha256: 0ixx1w93qy2lp06d5l51j8xvahb0zaym567xp7zwka410frdc55l
+  source_maps:
+    dependency: transitive
+    description:
+      name: source_maps
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 0.10.10
+    sha256: 1dxzkx7dc8f0y3nzgjyjsd5mm2mx1g1ilbdhz0h8i073i7vn321a
+  source_span:
+    dependency: transitive
+    description:
+      name: source_span
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.9.1
+    sha256: 1lq4sy7lw15qsv9cijf6l48p16qr19r7njzwr4pxn8vv1kh6rb86
+  stack_trace:
+    dependency: transitive
+    description:
+      name: stack_trace
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.10.0
+    sha256: 01lyk22h1zxr3a39wmai9lvxykia0y8g7lc2kcpnjypxhf4g0sbl
+  stream_channel:
+    dependency: transitive
+    description:
+      name: stream_channel
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.1.1
+    sha256: 054by84c60yxphr3qgg6f82gg6d22a54aqjp265anlm8dwz1ji32
+  string_scanner:
+    dependency: transitive
+    description:
+      name: string_scanner
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.1.1
+    sha256: 0l3b1l9859gylhipcdacml0a0zlb8xhi42whpwqkc1jbkvimji36
+  term_glyph:
+    dependency: transitive
+    description:
+      name: term_glyph
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.2.1
+    sha256: 1x8nspxaccls0sxjamp703yp55yxdvhj6wg21lzwd296i9rwlxh9
+  test:
+    dependency: direct dev
+    description:
+      name: test
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.21.4
+    sha256: 14mrqqz3wvlxs2f02jr41mziazdzx0s2k9cfxl8xp0mdzyh2mf5m
+  test_api:
+    dependency: transitive
+    description:
+      name: test_api
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 0.4.12
+    sha256: 1zsh799yd8nnkbsl2jhin9kc9hl3zv8nh0syys84alb1v8yksb3b
+  test_core:
+    dependency: transitive
+    description:
+      name: test_core
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 0.4.16
+    sha256: 17y2hqy5psk99jcmy7q59036p8wdxhrxkgw0g61iw2ywg03z9ksx
+  typed_data:
+    dependency: transitive
+    description:
+      name: typed_data
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.3.1
+    sha256: 1x402bvyzdmdvmyqhyfamjxf54p9j8sa8ns2n5dwsdhnfqbw859g
+  vm_service:
+    dependency: transitive
+    description:
+      name: vm_service
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 9.4.0
+    sha256: 05xaxaxzyfls6jklw1hzws2jmina1cjk10gbl7a63djh1ghnzjb5
+  watcher:
+    dependency: transitive
+    description:
+      name: watcher
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.0.1
+    sha256: 04gm3bj5jq4krpanldqycqglmln3mj7j2l22pkqb3m37awgcckv1
+  web_socket_channel:
+    dependency: transitive
+    description:
+      name: web_socket_channel
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 2.2.0
+    sha256: 147amn05v1f1a1grxjr7yzgshrczjwijwiywggsv6dgic8kxyj5a
+  webkit_inspection_protocol:
+    dependency: transitive
+    description:
+      name: webkit_inspection_protocol
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 1.2.0
+    sha256: 0z400dzw7gf68a3wm95xi2mf461iigkyq6x69xgi7qs3fvpmn3hx
+  yaml:
+    dependency: transitive
+    description:
+      name: yaml
+      url: https://pub.dartlang.org
+    source: hosted
+    version: 3.1.1
+    sha256: 0mqqmzn3c9rr38b5xm312fz1vyp6vb36lm477r9hak77bxzpp0iw
+sdks:
+  dart: '>=2.17.3 <3.0.0'
