@@ -40,7 +40,7 @@
         });
       });
 
-      tofi-rbw = (final.callPackage ./nix/tofi-rbw {
+      tofi-rbw = (final.callPackage ./nix/tofi-rbw.nix {
         inherit tofi-rbw-unwrapped;
       });
     };
