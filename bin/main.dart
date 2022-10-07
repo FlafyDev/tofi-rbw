@@ -6,10 +6,14 @@ import 'package:tofi_rbw/tofi.dart';
 
 void main(List<String> arguments) async {
   final parser = ArgParser()
-    ..addOption("rbw",
-        help: "rbw executable path")
-    ..addOption("tofi",
-        help: "tofi executable path")
+    ..addOption("rbw", help: "rbw executable path")
+    ..addOption("tofi", help: "tofi executable path")
+    ..addOption(
+      "action",
+      help:
+          "Choose what to do after selecting a login name and user.\nIf not specified, tofi will ask for an action.",
+      valueHelp: '"copy password" "copy username"',
+    )
     ..addFlag("help", abbr: "h");
 
   final ArgResults argResults = parser.parse(arguments);
@@ -19,8 +23,8 @@ void main(List<String> arguments) async {
     return;
   }
 
-  final rbw = Rbw(executable: File(argResults["rbw"] ?? "rbw")); 
-  final tofi = Tofi(executable: File(argResults["tofi"] ?? "tofi")); 
+  final rbw = Rbw(executable: File(argResults["rbw"] ?? "rbw"));
+  final tofi = Tofi(executable: File(argResults["tofi"] ?? "tofi"));
 
   if (!await rbw.isUnlocked()) {
     print("rbw is not unlocked.");
@@ -44,7 +48,8 @@ void main(List<String> arguments) async {
     return;
   }
 
-  final action = await tofi.show(["copy password", "copy username"]);
+  final String? action = (argResults["action"] as String?) ??
+      await tofi.show(["copy password", "copy username"]);
 
   switch (action) {
     case "copy username":
